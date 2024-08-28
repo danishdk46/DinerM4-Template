@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* .purple{
+    color: #59427a;
+}
+.bg-purple{
+    background-color: #59427a;
+}
+.bg-pink{
+    background-color: #dfb6be;
+}
+.pink{
+    color: #bd6bb7;
+}
+.bg-pink2{
+    background-color: #bd6bb7;
+} */
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-i-center{
+    align-items: center;
+}
+.border-none{
+    border: none;
+}
+.li-none{
+    list-style: none;
+}
+.f-w-bold{
+    font-weight: bold;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+.b-radius-50{
+    border-radius: 50%;
+}
+.relative{
+    position: relative;
+}
+.c-white{
+    color: white;
+}
+.c-green{
+    color: #89b758;
+}
+.bg-lace{
+    background-color: #fff4e2;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: #232323;
+}
+.t-center{
+    text-align: center;
+}
+.font-48{
+    font-size: 48px;
+}
+.p-20{
+    padding: 20px;
+}
+.b-radius-10{
+    border-radius: 10px;
+}
+.flex-dir-col{
+    flex-direction: column;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.mx-w-100{
+    max-width: 100%;
+}
+.c-red{
+    color: #e8262e;
+}
+.bg-red{
+    background-color: #e8262e;
+}
+.absolute{
+    position: absolute;
+}
+.t-left{
+    text-align: left;
+}
+.f-cursive{
+    font-family: "Permanent Marker", cursive;
+}
+.font-32{
+    font-size: 32px;
+}
+.t-no-wrap{
+    text-wrap: nowrap;
+}
+.justify-space-around{
+    justify-content: space-around;
+}
+.f-w-300{
+    font-weight: 300;
+}
+.f-w-800{
+    font-weight: 800;
+}
+.t-right{
+    text-align: right;
+}
+.h-90{
+    height: 90%;
+}
