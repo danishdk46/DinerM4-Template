@@ -368,7 +368,9 @@ nav ul li {
 .team-sect-social {
     margin: 15px 0;
 }
-
+.team-section-card h5{
+    margin-top: 1px;
+}
 .team-sect-social img {
     background: white;
     border-radius: 100%;
@@ -384,15 +386,20 @@ nav ul li {
 }
 
 .faq-question {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     /* flex: 1 0 60%; */
     width: 60%;
     justify-content: space-between;
     margin: 5px;
 }
 
-.faq-question h2 {
+.faq-question h4 {
+    color: #181818;
+    font-size: 1.6rem;
     padding: 10px;
+    font-weight: 700;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: -1px;
 }
 
 .faq-plus-icon {
@@ -424,13 +431,13 @@ nav ul li {
 }
 
 .connect-form input {
-    padding: 25px 190px 25px 30px;
+    padding: 20px 190px 20px 30px;
     border-radius: 30px;
     margin-right: 5px;
 }
 
 .connect-form button {
-    padding: 20px 50px;
+    padding: 15px 50px;
     border-radius: 30px;
 }
 

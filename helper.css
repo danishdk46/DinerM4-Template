@@ -38,6 +38,9 @@
 .w-100{
     width: 100%;
 }
+.c-light-black{
+    color: #8C8580;
+}
 .b-radius-50{
     border-radius: 50%;
 }
