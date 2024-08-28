@@ -715,11 +715,18 @@ footer {
         height: 50px;
         width: 50px;
     }
+    .deal-card{
+        padding: 1.5rem;
+    }
 }
 
 @media (min-width: 481px) and (max-width:992px) {
     nav {
         margin-bottom: 50px;
+    }
+
+    .deal-card{
+        padding: 1.5rem;
     }
 
     .price-container ul{
