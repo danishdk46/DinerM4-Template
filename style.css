@@ -608,12 +608,25 @@ footer {
         height: 30px;
         right: -5px;
     }
-
+    .price-container{
+        justify-content: space-between;
+    }
+    .price-container ul{
+        gap: 0;
+    }
+    .header-data{
+        margin-left: 14px;
+    }
+    .price-container ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 40px;
+    }
     .price-display {
         font-size: 24px;
         margin-left: 5px;
         position: relative;
-        bottom: -50px;
+        bottom: 0;
     }
 
     .deal-card {
@@ -694,6 +707,14 @@ footer {
     .faq-question {
         width: 100%;
     }
+    .plus-icon{
+        left: 50%;
+        top: auto;
+        transform: translateX(-50%);
+        bottom: -25px;
+        height: 50px;
+        width: 50px;
+    }
 }
 
 @media (min-width: 481px) and (max-width:992px) {
@@ -701,8 +722,22 @@ footer {
         margin-bottom: 50px;
     }
 
-    .price-container {
-        width: 90%;
+    .price-container ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 40px;
+    }
+
+    .plus-icon{
+        left: 50%;
+        top: auto;
+        transform: translateX(-50%);
+        bottom: -25px;
+        height: 50px;
+        width: 50px;
+    }
+    .price-container{
+        justify-content: space-between;
     }
 
     .delivery-section,
@@ -710,11 +745,16 @@ footer {
         flex-wrap: wrap;
     }
 
-    .plus-icon {
+    /* .plus-icon {
         width: 45px;
         height: 45px;
-    }
-
+    } */
+    
+    /* .plus-icon {
+        width: 30px;
+        height: 30px;
+        right: -5px;
+    } */
     .nav-btn ul {
         justify-content: center;
     }
@@ -727,16 +767,6 @@ footer {
         font-size: 40px;
     }
 
-    .plus-icon {
-        width: 30px;
-        height: 30px;
-        right: -5px;
-    }
-
-    .deal-card {
-        flex-direction: column;
-        align-items: center;
-    }
 
     .circle {
         width: 90%;
