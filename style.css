@@ -33,8 +33,7 @@ nav ul li {
 }
 .buy {
     border-radius: 50px;
-    padding: 0.6rem 1.5rem;
-    margin: 0.4rem 0.8rem;
+    padding: 0.9rem 1.8rem;
 }
 .price-container {
     background-color: #fcbe37;
@@ -71,10 +70,17 @@ nav ul li {
 .delivery-section {
     padding: 100px 50px;
 }
-.delivery-section button {
-    padding: 10px 40px;
-    border-radius: 20px;
-    margin: 10px;
+.delivery-btn {
+    padding: 20px 40px;
+    border-radius: 100px;
+    margin: 30px;
+    width: 60%;
+}
+.delivery-btn img{
+    width: 12%;
+    margin-right: 10px;
+    margin-bottom: -6px;
+    filter: invert(1);
 }
 .reward {
     text-align: -webkit-right;
@@ -97,6 +103,10 @@ nav ul li {
 .deals-cards {
     gap: 10px;
     padding: 0 2rem;
+}
+.arrow-icon{
+    font-weight: bold;
+    margin-left: 10px;
 }
 .best-seller-card {
     flex: 1 0 23%;
@@ -470,6 +480,10 @@ footer {
     .icon-wrap {
         text-align: -webkit-center;
     }
+    .delivery-btn {
+        padding: 20px 5px;
+        width: 90%;
+    }
     .footer-card,
     .deal-card,
     .circle-img {
@@ -519,6 +533,9 @@ footer {
     .deal-card{
         padding: 1.5rem;
     }
+    .delivery > * ,.reward > *{
+        text-align: center;
+    }
 }
 @media (min-width: 481px) and (max-width:992px) {
     nav {
@@ -539,6 +556,10 @@ footer {
         bottom: -25px;
         height: 50px;
         width: 50px;
+    }
+    .delivery-btn {
+        padding: 20px 5px;
+        width: 40%;
     }
     .price-container{
         justify-content: space-between;

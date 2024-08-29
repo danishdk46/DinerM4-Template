@@ -12,6 +12,9 @@
 .justify-center{
     justify-content: center;
 }
+.align-i-base{
+    align-items: baseline;
+}
 .align-i-center{
     align-items: center;
 }
@@ -23,6 +26,9 @@
 }
 .f-w-bold{
     font-weight: bold;
+}
+.f-w-600{
+    font-weight: 600;
 }
 .w-50{
     width: 50%;
