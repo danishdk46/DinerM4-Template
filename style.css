@@ -9,6 +9,9 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+header{
+    padding-bottom: 100px;
+}
 .logo-name {
     padding: 15px;
     font-size: 24px;
@@ -68,9 +71,6 @@ nav ul li {
 .delivery-section {
     padding: 100px 50px;
 }
-.delivery-section h1 {
-    font-size: 40px;
-}
 .delivery-section button {
     padding: 10px 40px;
     border-radius: 20px;
@@ -96,6 +96,7 @@ nav ul li {
 }
 .deals-cards {
     gap: 10px;
+    padding: 0 2rem;
 }
 .best-seller-card {
     flex: 1 0 23%;
@@ -117,8 +118,12 @@ nav ul li {
 }
 .deal-card {
     width: 30%;
-    padding: 30px 0 5px 30px;
-    border-radius: 10px;
+    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.03);
+    padding: 1.5rem;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.6s;
+    overflow: hidden;
 }
 .deal-card1 {
     background-color: #e7272d;
@@ -137,7 +142,7 @@ nav ul li {
     margin: 20px 10px 50px 10px;
 }
 .deals-card-txt h2 {
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
 }
 .features-section {
     padding-top: 400px;
@@ -311,6 +316,7 @@ nav ul li {
     inset: 0;
     opacity: 0.3;
     z-index: 0;
+    margin-bottom: 6px;
 }
 .play-button {
     width: 5%;
