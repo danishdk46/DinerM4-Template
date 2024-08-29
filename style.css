@@ -516,10 +516,8 @@ nav ul li {
 
 .review-head {
     width: 10%;
-}
-
-.review-head {
     flex: 0 0 51%;
+    margin-top: 25px;
     margin-left: 10px;
     /* text-wrap: nowrap; */
 }
