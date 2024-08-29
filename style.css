@@ -536,6 +536,9 @@ footer {
     .delivery > *, .reward > *{
         text-align: center;
     }
+    .dish-price{
+        margin-left: 20%;
+    }
 }
 @media (min-width: 481px) and (max-width:992px) {
     nav {
@@ -596,6 +599,9 @@ footer {
     .deal-card,
     .circle-img {
         top: 0;
+    }
+    .dish-price{
+        margin-left: 20%;
     }
     .line {
         display: none;
