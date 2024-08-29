@@ -533,7 +533,7 @@ footer {
     .deal-card{
         padding: 1.5rem;
     }
-    .delivery > * ,.reward > *{
+    .delivery > *, .reward > *{
         text-align: center;
     }
 }
@@ -543,6 +543,12 @@ footer {
     }
     .deal-card{
         padding: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .best-seller-card{
+        flex: 1 0 47%;
     }
     .price-container ul{
         flex-direction: column;
