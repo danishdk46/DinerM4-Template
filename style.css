@@ -409,10 +409,8 @@ footer {
     margin: 20px 0;
     font-weight: 300;
 }
+
 @media (min-width: 320px) and (max-width:480px) {
-    nav {
-        margin-bottom: 50px;
-    }
     .delivery-section,
     .team-section-cards {
         flex-wrap: wrap;
@@ -533,13 +531,10 @@ footer {
         text-align: center;
     }
     .dish-price{
-        margin-left: 20%;
+        margin-left: 8%;
     }
 }
-@media (min-width: 481px) and (max-width:767) {
-    nav {
-        margin-bottom: 50px;
-    }
+@media (min-width: 481px) and (max-width:768px) {
     .deal-card{
         padding: 1.5rem;
         flex-direction: column;
@@ -638,5 +633,112 @@ footer {
     }
     .header-sushi-img {
         width: 70%;
+    }
+    .footer-cards{
+        display: block;
+    }
+}
+@media (min-width: 769px) and (max-width:1024px) {
+    .deal-card{
+        padding: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .best-seller-card{
+        flex: 1 0 47%;
+    }
+    .price-container ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 40px;
+    }
+    .plus-icon{
+        left: 50%;
+        top: auto;
+        transform: translateX(-50%);
+        bottom: -25px;
+        height: 50px;
+        width: 50px;
+    }
+    .delivery-btn {
+        padding: 20px 5px;
+        width: 40%;
+    }
+    .price-container{
+        justify-content: space-between;
+    }
+    .delivery-section,
+    .team-section-cards {
+        flex-wrap: wrap;
+    }
+    .nav-btn ul {
+        justify-content: center;
+    }
+    .banner-data {
+        flex-direction: column;
+    }
+    .cafe-heading {
+        font-size: 40px;
+    }
+    .circle {
+        width: 90%;
+        height: 90%;
+        border-radius: 0;
+    }
+    .circle-right,
+    .circle-img {
+        right: 0;
+        top: 250px;
+    }
+    .deal-card,
+    .circle-img {
+        top: 0;
+    }
+    .dish-price{
+        margin-left: 20%;
+    }
+    .line {
+        display: none;
+    }
+    .footer-card,
+    .circle-img {
+        width: 95%;
+    }
+    .connect-form input {
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .client-review,
+    .review-para,
+    .connect-section-txt {
+        width: 100%;
+    }
+    .timings {
+        margin-left: 10px;
+    }
+    .inputs {
+        width: 80%;
+    }
+    .sect-heading {
+        font-size: 28px;
+    }
+    .delivery-section h1 {
+        font-size: 20px;
+    }
+    .features-section {
+        padding-bottom: 340px;
+    }
+    .icon-wrap-left {
+        left: 50px;
+    }
+    .faq-plus-icon {
+        width: 10%;
+    }
+    .header-sushi-img {
+        width: 70%;
+    }
+    .footer-cards{
+        display: block;
     }
 }
